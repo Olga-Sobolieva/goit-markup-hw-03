@@ -188,22 +188,21 @@
 /*PAGE 2*/
 
 .portfolio .button {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--close-to-white-color);
+  cursor: pointer;
 }
 
 .portfolio .button:hover,
-.portfolio .button:active {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  background-color: #404bbf;
+.portfolio .button:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
 }
 
 .projects-title {
