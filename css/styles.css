@@ -155,8 +155,7 @@ body {
 /*hero section*/
 .hero {
   padding: 188px 0;
-  width: 1440px;
-  height: 600px;
+
   flex-shrink: 0;
 
   background-color: var(--dark-blue-color);
@@ -168,8 +167,9 @@ body {
   flex-shrink: 0;
   max-width: 496px;
 
-  margin-right: 472px;
-  margin-left: 472px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 
   font-weight: 700;
   font-size: 56px;
@@ -186,9 +186,8 @@ body {
   border: none;
   border-radius: 4px;
 
-  margin-top: 48px;
-  margin-right: 636px;
-  margin-left: 635px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
