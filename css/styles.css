@@ -44,6 +44,11 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-li {
+  display: flex;
+  gap: 40px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -148,6 +153,10 @@ body {
 }
 
 /*advantages*/
+.advantages {
+  padding: 120px 0;
+}
+
 .invisible-header {
   font-weight: 700;
   font-size: 36px;
@@ -195,6 +204,8 @@ body {
 }
 
 .visual-title {
+  margin-bottom: 72px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
